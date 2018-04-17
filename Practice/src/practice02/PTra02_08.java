@@ -13,7 +13,7 @@ public class PTra02_08 {
 		String name = "鈴木";
 
 		// ★ 変数num, calc, nameを連結して「鈴木さんは、25歳になりました」を出力してください
-
-
+		System.out.print(name + "さんは、");
+		System.out.print((num + calc) + "歳になりました");
 	}
 }
