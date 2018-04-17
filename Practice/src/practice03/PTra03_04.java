@@ -32,7 +32,20 @@ public class PTra03_04 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-
-
+		String uruu = "年はうるう年です。";
+		String noturuu = "年はうるう年ではありません。";
+		if (num % 4 == 0) {
+			if (num % 100 == 0) {
+				if (num % 400 == 0) {
+					System.out.println(num + uruu);
+				} else {
+					System.out.println(num + noturuu);
+				}
+			} else {
+				System.out.println(num + uruu);
+			}
+		} else {
+			System.out.println(num + noturuu);
+		}
 	}
 }
