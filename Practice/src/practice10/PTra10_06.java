@@ -48,11 +48,11 @@ public class PTra10_06 {
 				totalDistance += cars[i].run();
 				x = cars[i].gasoline;
 
-//				/*
+				/*
 				System.out.print("進んだ距離: " + cars[i].run);
 				System.out.print("\tのこり距離: " + (DISTANCE - totalDistance));
 				System.out.println("\t ガソリン: " + x);
-//				*/
+				*/
 
 				n++;
 				if (x < 0) {
