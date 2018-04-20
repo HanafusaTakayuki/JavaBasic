@@ -29,8 +29,8 @@ public class PTra10_06 {
 		cars[1].color = "Red";
 		cars[2].color = "Yellow";
 
-		cars[0].gasoline = 30;
-		cars[1].gasoline = 60;
+		cars[0].gasoline = 49;
+		cars[1].gasoline = 70;
 		cars[2].gasoline = 100;
 
 
