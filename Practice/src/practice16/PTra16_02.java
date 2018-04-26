@@ -21,7 +21,7 @@ public class PTra16_02 {
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
 
 		Boolean bb = b;
-		Byte byby = by;
+		Byte bby = by;
 		Short ss = s;
 		Character cc = c;
 		Integer ii = i;
@@ -29,5 +29,13 @@ public class PTra16_02 {
 		Float ff = f;
 		Double dd = d;
 
+		System.out.println(bb);
+		System.out.println(bby);
+		System.out.println(ss);
+		System.out.println(cc);
+		System.out.println(ii);
+		System.out.println(ll);
+		System.out.println(ff);
+		System.out.println(dd);
 	}
 }

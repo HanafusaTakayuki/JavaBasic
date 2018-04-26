@@ -19,7 +19,7 @@ public class PTra17_02 {
 		}
 	}
 
-	public static void dispInput(){
+	public static void dispInput() throws IOException {
 
 		System.out.println("文字を入力してください");
 
@@ -28,13 +28,9 @@ public class PTra17_02 {
 		 * ★ 適切な修正を行い、コンパイルエラーをなくしてください
 		 */
 
-		try {
 		String line = ThrowExceptionUtil.inputValue();
 
 		System.out.println(line);
 
-		} catch (IOException e) {
-
-		}
 	}
 }

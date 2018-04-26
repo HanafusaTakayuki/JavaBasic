@@ -35,17 +35,21 @@ public class PTra13_04 {
 
 		while(true) {
 
+			System.out.println(hero.getName() + "の攻撃");
 			game = slime.damage(hero.attack());
 			if (game) {
 				win = hero.getName();
 				lose = slime.getName();
+				System.out.println(slime.getName() + "は倒れた\n");
 				break;
 			}
 
+			System.out.println(slime.getName() + "の攻撃");
 			game = hero.damage(slime.attack());
 			if (game) {
 				win = slime.getName();
 				lose = hero.getName();
+				System.out.println(hero.getName() + "は倒れた\n");
 				break;
 			}
 

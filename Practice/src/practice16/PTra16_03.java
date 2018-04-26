@@ -18,7 +18,7 @@ public class PTra16_03 {
 
 	@Override
 	public String toString() {
-		return getClass().getName() + '@' + Integer.toHexString(hashCode()) + "\nPTra16_03#toString()の処理";
+		return super.toString() + "\nPTra16_03#toString()の処理";
 	}
 
 	public static void main(String[] args) {

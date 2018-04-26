@@ -1,6 +1,6 @@
 package practice13.common;
 
-public class Employee extends practice13.common.Person{
+public class Employee extends Person{
 
 	private String departmentNm;
 	private int departmentCnt;

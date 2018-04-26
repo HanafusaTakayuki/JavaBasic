@@ -30,8 +30,6 @@ public class PTra18_02 {
 	 * 		各フィールドの値を、カンマ区切りの文字列で取得する
 	 */
 
-
-
 	public static void main(String[] args) {
 
 		/*
@@ -41,9 +39,7 @@ public class PTra18_02 {
 		 * ★ ArrayListを作成して、Playerインスタンスを格納してください
 		 */
 		ArrayList<Player> playerArr = new ArrayList<>();
-
 		try(Scanner scanner = new Scanner(new File("file/BestElevenCandidate.csv"))) {
-
 			while(scanner.hasNext()) {
 				String line = scanner.nextLine();
 				String[] normalizedLine = line.split(",");
@@ -52,13 +48,11 @@ public class PTra18_02 {
 				player.setName(normalizedLine[1]);
 				player.setCountly(normalizedLine[2]);
 				player.setTeam(normalizedLine[3]);
-
 				playerArr.add(player);
 			}
 		} catch (FileNotFoundException e) {
 			System.out.println("ファイルが見つかりません");
 		}
-
 
 		// ★ ArrayListに格納されているインスタンス全てのtoStringメソッドを実行し、出力してください
 		// ※ できれば拡張for文を使いましょう

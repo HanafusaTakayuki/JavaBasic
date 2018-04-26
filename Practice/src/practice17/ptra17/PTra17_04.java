@@ -16,18 +16,16 @@ public class PTra17_04 {
 		 * ※ Thread.sleep を使用すること
 		 */
 
-		char[] str_arr = str.toCharArray();
+		char[] charArr = str.toCharArray();
 
-		int arr_num = str_arr.length;
-
-		for (int i = 0; i < arr_num; i++) {
+		for (int i = 0; i < charArr.length; i++) {
 
 			try {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
 			}
 
-			System.out.print(str_arr[i]);
+			System.out.print(charArr[i]);
 
 		}
 

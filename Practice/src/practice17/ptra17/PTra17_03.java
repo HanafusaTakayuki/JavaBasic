@@ -38,9 +38,10 @@ public class PTra17_03 {
 		for (int i = 0; i < question.length; i++) {
 			System.out.println("問題：" + (i + 1));
 			System.out.println(question[i]);
+
 			while(true) {
+				System.out.println("回答を数字で入力してください");
 				try {
-					System.out.println("回答を数字で入力してください");
 
 					String input = ThrowExceptionUtil.inputValue();
 

@@ -69,6 +69,7 @@ public class PTra18_03 {
 
 		// ★ 削除後のArrayListの中身を全件出力してください
 		for (Player line: playerArr) {
+			
 			System.out.println(line.toString());
 		}
 

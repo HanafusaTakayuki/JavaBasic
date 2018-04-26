@@ -1,6 +1,6 @@
 package practice13.common;
 
-public class SuperHero extends practice13.common.Hero{
+public class SuperHero extends Hero{
 
 	private Item equipment;
 
@@ -13,7 +13,7 @@ public class SuperHero extends practice13.common.Hero{
 	}
 
 	public int attack(){
-		return  super.attack() + equipment.getAdditionalDamage();
+		return  super.attack() + this.equipment.getAdditionalDamage();
 	}
 
 }
